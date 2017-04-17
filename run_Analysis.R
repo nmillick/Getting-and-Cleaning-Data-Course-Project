@@ -55,4 +55,4 @@ master_data <- cbind(x_dataset, y_dataset, subject_dataset)
 averages_dataset <- ddply(master_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
 #create tidy.txt file
-write.table(averages_data, "tidy.txt", row.name=FALSE)
+write.table(averages_dataset, "tidy.txt", row.name=FALSE)
