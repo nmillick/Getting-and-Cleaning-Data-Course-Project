@@ -1,6 +1,5 @@
 # Set up
 # Load necessary packages
-library(reshape2)
 library(plyr)
 
 # Download and unzip datafile
